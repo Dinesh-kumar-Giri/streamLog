@@ -1,0 +1,23 @@
+{
+  "name": "streamlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "streamlog"
+  ],
+  "author": "Dinesh <dineshgiri154@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "build/**/*"
+  ]
+}
